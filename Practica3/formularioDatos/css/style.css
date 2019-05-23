@@ -1,0 +1,33 @@
+.error {
+	border: 1px solid red;
+}
+
+.p {
+	color: red;
+}
+
+#form {
+}
+
+h1{
+	text-align: center;
+}
+
+td {
+	padding-top: 10px;
+	padding-right: 15px;
+}
+
+#crear, #cancelar {
+	width: 100px;
+	margin: 10px;
+
+}
+
+#btn {
+	text-align: center;
+}
+
+body {
+	background-size: 100%;
+}
