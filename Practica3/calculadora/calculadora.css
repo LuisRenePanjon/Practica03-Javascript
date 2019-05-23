@@ -1,0 +1,35 @@
+div {
+    width: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+table {
+    width: 100%;
+    background-color:green;
+    
+}
+
+th {
+    padding: 0px;
+}
+
+input {
+    width: 60%;
+    height: 60%;
+    margin: 0px;
+    border-radius: 1px;
+}
+
+#res {
+    height: 40px;
+    width: 247px;
+    margin: 0px;
+    background-color:gray;
+    border-radius: 3px;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
