@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>calculadora</title>
+    <link rel="stylesheet" href="calculadora.css" type="text/css" />
+    <script type="text/javascript" src="calculadora.js"></script>
 </head>
 <body>
-    
+    <div>
+		<table>
+			<tr>
+				<td colspan="4"><p id="res"></p></td>
+			</tr>
+
+			<tr>
+				<th><input type="button" id="ce" onclick="bResultado()" value="CE"></th>
+				<th><input type="button" id="c" onclick="bTodo()" value="C"></th>
+				<th><input type="button" id="bor" onclick="bUno()" value="&#10094;"></th>
+				<th><input type="button" id="div" onclick="escribir(' / ')" value="/"></th>
+			</tr>
+
+			<tr>
+				<th><input type="button" id="b7" onclick="escribir('7')" value="7"></th>
+				<th><input type="button" id="b8" onclick="escribir('8')" value="8"></th>
+				<th><input type="button" id="b9" onclick="escribir('9')" value="9"></th>
+				<th><input type="button" id="mul" onclick="escribir(' * ')" value="x"></th>
+			</tr>
+
+			<tr>
+				<th><input type="button" id="b4" onclick="escribir('4')" value="4"></th>
+				<th><input type="button" id="b5" onclick="escribir('5')" value="5"></th>
+				<th><input type="button" id="b6" onclick="escribir('6')" value="6"></th>
+				<th><input type="button" id="men" onclick="escribir(' - ')" value="-"></th>
+			</tr>
+
+			<tr>
+				<th><input type="button" id="b1" onclick="escribir('1')" value="1"></th>
+				<th><input type="button" id="b2" onclick="escribir('2')" value="2"></th>
+				<th><input type="button" id="b3" onclick="escribir('3')" value="3"></th>
+				<th><input type="button" id="sum" onclick="escribir(' + ')" value="+"></th>
+			</tr>
+
+			<tr>
+				<th><input type="button" id="mm" onclick="" value="" disabled="true"></th>
+				<th><input type="button" id="b0" onclick="" value="0"></th>
+				<th><input type="button" id="com" onclick="escribir('.')" value=","></th>
+				<th><input type="button" id="igl" onclick="resolver()" value="="></th>
+			</tr>
+
+			<p id="p"></p>
+		</table>
+	</div>
+
+	<p id="lab"></p>
+
+	
 </body>
 </html>
